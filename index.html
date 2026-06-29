@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aSSIST AI Creative 해외 복수 석사과정 개원 안내</title>
+    
+    <!-- Open Graph (OG) Meta Tags for KakaoTalk, LinkedIn, Facebook Link Previews -->
+    <meta property="og:title" content="aSSIST AI Creative 해외 복수석사과정 개원 안내">
+    <meta property="og:description" content="AI, 비즈니스, 창의를 경영으로 관통한 국내 유일의 해외 복수석사과정 (한국 MS & 스위스 EMBA)">
+    <!-- GitHub Pages 배포 후 이 이미지 경로를 인터넷 주소로 수정하면 공유 시 카드가 완벽히 작동합니다. -->
+    <meta property="og:image" content="ai_creative_light_banner_1782703167653.png">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f1f5f9;
+            --container-bg: #ffffff;
+            --card-bg: rgba(255, 255, 255, 0.9);
+            --card-border: rgba(226, 232, 240, 0.8);
+            --primary: #0284c7; /* Sky Blue */
+            --secondary: #0d9488; /* Teal / Mint */
+            --accent: #eab308; /* Sunny Yellow */
+            --text-main: #0f172a; /* Dark Slate */
+            --text-muted: #475569; /* Gray Slate */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        /* Brochure Container */
+        .brochure-container {
+            width: 100%;
+            max-width: 650px;
+            background: var(--container-bg);
+            border: 1px solid rgba(226, 232, 240, 1);
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.1);
+            position: relative;
+        }
+
+        /* Subtle organic light gradients behind content */
+        .brochure-container::before {
+            content: '';
+            position: absolute;
+            top: -150px;
+            left: -150px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(14, 165, 233, 0.08) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .brochure-container::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            right: -150px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(234, 179, 8, 0.06) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Slim Bright Banner */
+        .banner-container {
+            width: 100%;
+            height: 120px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .banner-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(360deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
+        }
+
+        /* Header Section */
+        .header-section {
+            padding: 36px 32px 16px;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 18px;
+            background: rgba(14, 165, 233, 0.1);
+            border: 1.5px solid var(--primary);
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: #0f172a;
+            margin-bottom: 24px;
+            line-height: 1.4;
+            word-break: keep-all;
+        }
+
+        /* Letter Box - Alumni Letter with Warm Light Theme */
+        .letter-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 32px;
+            margin: 0 32px 32px;
+            font-size: 1.15rem;
+            color: #334155;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+        }
+
+        .letter-title {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 18px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+
+        .letter-content p {
+            margin-bottom: 18px;
+            word-break: keep-all;
+        }
+
+        .letter-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Section Title styling */
+        .section-header {
+            padding: 16px 32px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: #0f172a;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-header::before {
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 20px;
+            background: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+            border-radius: 3px;
+        }
+
+        /* Degree Structure Visual Diagram (Light Pastel Theme) */
+        .degree-diagram {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 0 32px;
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 500px) {
+            .degree-diagram {
+                flex-direction: row;
+            }
+        }
+
+        .degree-card {
+            flex: 1;
+            background: rgba(13, 148, 136, 0.04);
+            border: 1.5px solid rgba(13, 148, 136, 0.2);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .degree-card.swiss {
+            background: rgba(14, 165, 233, 0.04);
+            border: 1.5px solid rgba(14, 165, 233, 0.2);
+        }
+
+        .degree-org {
+            font-size: 0.9rem;
+            font-weight: 800;
+            color: var(--secondary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .degree-card.swiss .degree-org {
+            color: var(--primary);
+        }
+
+        .degree-title {
+            font-size: 1.35rem;
+            font-weight: 900;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .degree-details {
+            list-style: none;
+            font-size: 1rem;
+            color: #475569;
+        }
+
+        .degree-details li {
+            margin-bottom: 6px;
+            padding-left: 14px;
+            position: relative;
+        }
+
+        .degree-details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .degree-card.swiss .degree-details li::before {
+            color: var(--primary);
+        }
+
+        /* 3 Core Tracks Section */
+        .tracks-section {
+            padding: 0 32px;
+            margin-bottom: 32px;
+        }
+
+        .track-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .track-item {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 16px 0;
+        }
+
+        .track-item:first-child {
+            padding-top: 0;
+        }
+
+        .track-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .track-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .track-item:nth-child(1) .track-badge {
+            background: rgba(13, 148, 136, 0.1);
+            color: var(--secondary);
+            border: 1px solid rgba(13, 148, 136, 0.2);
+        }
+
+        .track-item:nth-child(2) .track-badge {
+            background: rgba(14, 165, 233, 0.1);
+            color: var(--primary);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        .track-item:nth-child(3) .track-badge {
+            background: rgba(234, 179, 8, 0.15);
+            color: #b45309;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+        }
+
+        .track-name-bold {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #0f172a;
+        }
+
+        .track-desc-long {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-top: 6px;
+            word-break: keep-all;
+        }
+
+        /* Action & URL Info Box */
+        .action-section {
+            padding: 36px 32px;
+            background: #f8fafc;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-weight: 800;
+            font-size: 1.2rem;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(14, 165, 233, 0.25);
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(14, 165, 233, 0.4);
+        }
+
+        .url-box {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+        }
+
+        .url-item {
+            font-size: 1rem;
+            color: #334155;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .url-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .url-label {
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        .url-link {
+            color: var(--primary);
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        /* Contacts Footer */
+        .footer {
+            padding: 32px;
+            border-top: 1px solid #e2e8f0;
+            background: #f1f5f9;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .contact-group {
+            margin-bottom: 16px;
+        }
+
+        .contact-title {
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 6px;
+        }
+
+        .footer-text {
+            text-align: center;
+            font-size: 0.85rem;
+            margin-top: 24px;
+            color: #94a3b8;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="brochure-container">
+        <div class="content-wrapper">
+            <!-- Compact Bright Banner Image (Relative Path for GitHub Deploy) -->
+            <div class="banner-container">
+                <img class="banner-img" src="ai_creative_light_banner_1782703167653.png" alt="AI Creative Light Header Background">
+                <div class="banner-overlay"></div>
+            </div>
+
+            <!-- Header Section -->
+            <div class="header-section">
+                <div class="badge">aSSIST 해외 복수석사과정</div>
+                <h1>≪AI Creative≫ 석사과정 개원 안내</h1>
+            </div>
+
+            <!-- Part 1: Alumni Letter (Full Content with Korean '해외' instead of Hanja) -->
+            <div class="letter-box">
+                <div class="letter-title">aSSIST 박사 동문 여러분께</div>
+                <div class="letter-content">
+                    <p>동문 박사님들의 애정 어린 관심 아래 <strong>&lt;&lt;AI Creative&gt;&gt; 해외복수학위 석사과정</strong>이 26년 9월 신규 개원합니다.</p>
+                    <p>이번 과정은 AI, 비즈니스, 창의를 경영으로 관통한 국내 유일의 석사과정으로서, 영국 석사학제와 동일한 기간동안 한국에서 MS, 스위스에서 EMBA를 취득하는 현업 중심의 집중 교육 과정입니다.</p>
+                    <p>또한, 전체 교수진 중 박사동문 출신 교수진이 50%로 구성되어 동문회와 함께 만들어 가는 실전 과정이기도 합니다.</p>
+                </div>
+            </div>
+
+            <!-- Part 2: Degree Structure Visual (PDF Page 3 content) -->
+            <div class="section-header">복수 학위 취득 구조 (Double Degree Paths)</div>
+            <div class="degree-diagram">
+                <!-- Domestic Card -->
+                <div class="degree-card">
+                    <div class="degree-org">aSSIST (국내 학위)</div>
+                    <div class="degree-title">공학석사 (MS)</div>
+                    <ul class="degree-details">
+                        <li><strong>과정</strong>: 국내 과정</li>
+                        <li><strong>전공</strong>: AI비즈니스</li>
+                    </ul>
+                </div>
+                <!-- Swiss Card -->
+                <div class="degree-card swiss">
+                    <div class="degree-org">SDG Management School (스위스 학위)</div>
+                    <div class="degree-title">경영학 석사 (EMBA)</div>
+                    <ul class="degree-details">
+                        <li><strong>과정</strong>: 국내 해외과정 + 해외 현지과정</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Part 3: 3 Core Tracks (PDF Page 2 content) -->
+            <div class="section-header">집중 교육 트랙 (Core Tracks)</div>
+            <div class="tracks-section">
+                <div class="track-card">
+                    <!-- Item 1 -->
+                    <div class="track-item">
+                        <div class="track-badge">AI</div>
+                        <span class="track-name-bold">AI 비즈니스 트랙</span>
+                        <p class="track-desc-long">단순한 기술 스킬이나 툴 학습을 넘어, 창의적 통찰력을 AI 기술로 한층 강화하여 실제 경영 성과를 도출하기 위한 전략 트랙</p>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="track-item">
+                        <div class="track-badge">Business</div>
+                        <span class="track-name-bold">비즈니스 트랙</span>
+                        <p class="track-desc-long">AI 시대에 지속가능한 비즈니스 성장과 비즈니스 모델 혁신을 주도할 수 있도록 통합하고 연결하는 트랙</p>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="track-item">
+                        <div class="track-badge">Creativity</div>
+                        <span class="track-name-bold">창의성 트랙</span>
+                        <p class="track-desc-long">광고, 마케팅, 콘텐츠 등 창의 산업 분야의 정교한 통찰력과 비즈니스 성장을 결합하는 크리에이티브 시너지 트랙</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 4: Action, Benefits & Links -->
+            <div class="action-section">
+                <!-- Letter Ending Block -->
+                <div class="letter-content" style="text-align: left; margin-bottom: 24px; font-size: 1.1rem; border-left: 3px solid var(--secondary); padding-left: 16px;">
+                    <p>이에 과정의 성공적인 정착과 운영을 위해 관심과 홍보 부탁드리며,</p>
+                    <p style="color: var(--primary); font-weight: bold;">특히 동문 박사님 추천 지원자는 7/14(화)까지 등록 시 다음 학기 장학금 특전의 기회도 주어지니 많은 관심과 추천 부탁드립니다.</p>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">(단, 학교 장학위원회 심사를 거쳐 확정)</p>
+                </div>
+
+                <!-- Call to action button -->
+                <a href="https://ipsi.assist.ac.kr/?majorcode=SS6543" class="btn" target="_blank">입학 원서 접수하기 (7/14 마감)</a>
+
+                <!-- Custom URL Info Box -->
+                <div class="url-box">
+                    <div class="url-item">
+                        <span class="url-label">* 과정 소개</span>
+                        <a href="https://intro.assist.ac.kr/news/articleView.html?idxno=2214" class="url-link" target="_blank">소개 뉴스 바로가기</a>
+                    </div>
+                    <div class="url-item">
+                        <span class="url-label">* 입학 안내</span>
+                        <a href="https://intro.assist.ac.kr/news/articleView.html?idxno=2221" class="url-link" target="_blank">모집 요강 바로가기</a>
+                    </div>
+                    <div class="url-item">
+                        <span class="url-label">* 원서 접수</span>
+                        <a href="https://ipsi.assist.ac.kr/?majorcode=SS6543" class="url-link" target="_blank">온라인 원서 접수</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacts Footer -->
+            <div class="footer">
+                <div class="contact-group">
+                    <div class="contact-title">✉️ 과정 문의</div>
+                    <div>김영숙 과정주임교수 (thevine@daum.net | 010-8449-3746)</div>
+                </div>
+                <div class="contact-group">
+                    <div class="contact-title">📞 입학 문의</div>
+                    <div>임은혜 팀장 (02-360-0728 | ehlim@assist.ac.kr)</div>
+                    <div>유승희 대리 (02-360-0730 | shyu@assist.ac.kr)</div>
+                </div>
+                <div class="footer-text">
+                    © Seoul School of Integrated Sciences & Technologies. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
